@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "c5c29ee17711c7905e3f393d7c042e61d779a4b5"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "FaceRecognitionFramework/1.0.0": {
+        "dependencies": {
+          "FaceRecognitionDotNet": "1.3.0",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "FaceRecognitionFramework.dll": {}
+        }
+      },
+      "DlibDotNet/19.18.0.20200301": {
+        "runtime": {
+          "lib/netstandard2.0/DlibDotNet.dll": {
+            "assemblyVersion": "19.18.0.0",
+            "fileVersion": "19.18.0.0"
+          }
+        }
+      },
+      "FaceRecognitionDotNet/1.3.0": {
+        "dependencies": {
+          "DlibDotNet": "19.18.0.20200301"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FaceRecognitionDotNet.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FaceRecognitionFramework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DlibDotNet/19.18.0.20200301": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sk/iqTtRNbhokMqiLqARvMkD5GrQuZrv6LL4HkzEP0SI+tD6Viq/Be/dkuVatM9/CKmTb9zQKgfukn/Au6vdxg==",
+      "path": "dlibdotnet/19.18.0.20200301",
+      "hashPath": "dlibdotnet.19.18.0.20200301.nupkg.sha512"
+    },
+    "FaceRecognitionDotNet/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E/8z/Sd6PmkIUvu7Os8kjAsnd3oscS7nP6wT54LSvzBzRjcCHiq1SWgI5a19wP5bkq09E1osp/2P6AJQFbKF2g==",
+      "path": "facerecognitiondotnet/1.3.0",
+      "hashPath": "facerecognitiondotnet.1.3.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}
