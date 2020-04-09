@@ -1,5 +1,5 @@
 # FaceCompare
-Server and client demo app
+Optoelectronica - Server and client demo app
 1. Aplicatia are nevoie de Microsoft Visual C++ Redistributable for Visual Studio 2017
 2. Se porneste aplicatia server, dupa care aplicatia client (demo)
 3. Aplicatia server este o aplicatie de tip console, wcf self hosted
