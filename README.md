@@ -7,7 +7,7 @@ Optoelectronica - Server and client demo app
 5. Aplicatia client apeleaza serviciile serverului pentru upload si compararea imaginilor.
 6. In aplicatia client exista o functie de explorare si incarcare a fisierelor de tip imagine (jpg)
 7. Prima imagine care trebuie incarcata (upload) pe server este cea cu care se face compararea (imaginea de baza)
-8. Urmatoarele imagini incarcata se pot compara cu imaginea de baza pentru a verifica compatibilitatea intre fetele personajelor din cele 2 imagini incarcate.
+8. Urmatoarele imagini incarcate se pot compara cu imaginea de baza pentru a verifica compatibilitatea intre fetele personajelor din cele 2 imagini incarcate.
 9. Incarcarea celei de-a doua imagine (nu cea de baza), are ca efect si compararea/recunoasterea faciala.
 10. In cazul in care recunoasterea fetei este pozitiva, aplicatia intoarce un mesaj:
 "Face Compare - Sistemul gaseste multe similitudini identificand fata ca apartinand aceleiasi persoane: Small numJitters: 2"
