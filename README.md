@@ -13,3 +13,5 @@ Server and client demo app
 "Face Compare - Sistemul gaseste multe similitudini identificand fata ca apartinand aceleiasi persoane: Small numJitters: 2"
 11. In cazul in care recunoasterea fetei personajului nu este pozitiva aplicatia va intoarce mesajul:
 "Sistemul gaseste prea putine similitudini identificand fata ca apartinand altei persoane".
+12. Aplicatia poate fi folosita si testata la
+http://13.93.24.190/FaceRecognition
